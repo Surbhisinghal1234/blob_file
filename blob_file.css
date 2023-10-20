@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem 0 4rem;
+    position: relative;
+}
+.imgbox {
+    height: 413px;
+    width: 457px;
+    position: absolute;
+    right: 412px;
+    top: 90px;
+}
+.imgbox img{
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.right{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.right li{
+    list-style: none;
+} 
+.right li a{
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: bold;
+    color: black;
+}
+.content{
+    height: 200px;
+    width: 600px;
+    margin: 6rem 0 1rem 0;
+    
+
+}
+.content h2{
+    font-size: 40px;
+}
+.btn a{
+    text-decoration: none;
+    
+    color: white;
+   
+}
+.btn:hover {
+    transform: translate(5px, 5px);
+    transition: 1s;
+}
+.btn{
+    background-color: orangered;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+.blob{
+    height: 277px;
+    width: 1225px;
+    color: orangered;
+    z-index: -1;
+    position: absolute;
+    right: -90px;
+    top: 669px;
+    transform: rotate(193deg);
+}
+
+
+.content_flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bottom a {
+    text-decoration: none;
+    background-color: orangered ;
+    padding: 10px 50px;
+    color: white ;
+    border-radius: 5px;
+}
+.bottom{
+    display: flex;
+    margin: 5rem 0 0 0;
+    
+  
+}
+.bag{
+   
+    background-color: orangered;
+    border: 1px solid transparent;
+    margin-right: 15px;
+    border-radius: 5px;
+    padding: 10px 88px ;
+    box-shadow: 1px 1px 5px;
+
+}
+.bag::after{
+    content: "";
+    background-color: antiquewhite;
+    height: 45px;
+    width: 50px;
+    border-radius: 0 0 0 50%;
+    position: absolute;
+    left: 218px;
+    top: 504px;
+    
+}
+.two::after{
+    content: "";
+    background-color: antiquewhite;
+    height: 45px;
+    width: 50px;
+    border-radius: 0 0 0 50%;
+    position: absolute;
+    top: 504px;
+    left: 468px;
+}
+.three::after{
+    content: "";
+    background-color: antiquewhite;
+    height: 45px;
+    width: 50px;
+    border-radius: 0 0 0 50%;
+    position: absolute;
+    top: 504px;
+    left: 713px;
+}
+
+
+
+.bag h4{
+    color: white;
+}
+.container{
+    padding: 0 3rem;
+}
